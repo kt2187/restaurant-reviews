@@ -1,32 +1,28 @@
-# Mobile Web Specialist Certification Course
+# Udacity Restaurant Review App
 ---
-#### _Three Stage Course Material Project - Restaurant Reviews_
+## Project Overview
+For the **Restaurant Reviews** projects, students were asked to convert a static webpage to a mobile-ready web application. In **Stage One**, the student takes a static design that lacks accessibility and converts the design to be responsive on different sized displays and accessible for screen reader use. Students also add a service worker to begin the process of creating a seamless offline experience for their users.
 
-## Project Overview: Stage 1
+## Instructions
+* Start a simple HTTP server to serve the site files on your computer. Python is a great option for this because it is user friendly.   * * Download and install the latest version of Python from their [website] (https://www.python.org/).
+* Navigate to the project folder.
+* Start the server using `-m http.server 8000`.
+* Visit the site here: `http://localhost:8000`.
 
-For the **Restaurant Reviews** projects, you will incrementally convert a static webpage to a mobile-ready web application. In **Stage One**, you will take a static design that lacks accessibility and convert the design to be responsive on different sized displays and accessible for screen reader use. You will also add a service worker to begin the process of creating a seamless offline experience for your users.
+## Browser Compatibilities
+This application has been tested in Chrome, Firefox, and Edge.
 
-### Specification
+## Acknowledgments
+* Starter code was povided by Udacity.
+* Matthew Cranford - dedicated student who took the time to create another tutorial with step by step instructions and screenshots. You can check out his blog [here](https://matthewcranford.com/blog/).
 
-You have been provided the code for a restaurant reviews website. The code has a lot of issues. It’s barely usable on a desktop browser, much less a mobile device. It also doesn’t include any standard accessibility features, and it doesn’t work offline at all. Your job is to update the code to resolve these issues while still maintaining the included functionality. 
-
-### What do I do from here?
-
-1. In this folder, start up a simple HTTP server to serve up the site files on your local computer. Python has some simple tools to do this, and you don't even need to know Python. For most people, it's already installed on your computer. 
-
-In a terminal, check the version of Python you have: `python -V`. If you have Python 2.x, spin up the server with `python -m SimpleHTTPServer 8000` (or some other port, if port 8000 is already in use.) For Python 3.x, you can use `python3 -m http.server 8000`. If you don't have Python installed, navigate to Python's [website](https://www.python.org/) to download and install the software.
-
-2. With your server running, visit the site: `http://localhost:8000`, and look around for a bit to see what the current experience looks like.
-3. Explore the provided code, and start making a plan to implement the required features in three areas: responsive design, accessibility and offline use.
-4. Write code to implement the updates to get this site on its way to being a mobile-ready website.
-
-## Leaflet.js and Mapbox:
-
-This repository uses [leafletjs](https://leafletjs.com/) with [Mapbox](https://www.mapbox.com/). You need to replace `<your MAPBOX API KEY HERE>` with a token from [Mapbox](https://www.mapbox.com/). Mapbox is free to use, and does not require any payment information. 
-
-### Note about ES6
-
-Most of the code in this project has been written to the ES6 JavaScript specification for compatibility with modern web browsers and future proofing JavaScript code. As much as possible, try to maintain use of ES6 in any additional JavaScript you write. 
-
-
-
+## Resources I referred to:
+These resources and webinars were provided by Udacity mentors, coaches, student leaders, and students. This was my first experience writing a service worker and I heavily relied on these resources. 
+* [ Webinar by Request: Service Workers with @RyanWaite.ProjectCoach [FEND, MWS] - YouTube (https://www.youtube.com/watch?v=2PY733qFR3A&feature=youtu.be)
+* [ Webinar: Rest. Reviews (P5) Sept-18 walk-thru with @RyanWaite.ProjectCoach [FEND, MWS] - YouTube (https://www.youtube.com/watch?v=ag_jBDFAL0U&feature=youtu.be)
+* [ Webinar: Rest. Review (P5) June-9 walk-thru with @Doug Brown [Project Coach]  - YouTube (https://www.youtube.com/watch?v=92dtrNU1GQc)
+* [ Restaurant Reviews App Walkthrough, Part 1 – Map API – Matthew Cranford (https://matthewcranford.com/restaurant-reviews-app-walkthrough-part-1-map-api/)
+* [ Restaurant Reviews App Walkthrough, Part 2 – Responsiveness – Matthew Cranford (https://matthewcranford.com/restaurant-reviews-app-walkthrough-part-2-responsiveness/)
+* [ Restaurant Reviews App Walkthrough, Part 3 – Accessibility – Matthew Cranford (https://matthewcranford.com/restaurant-reviews-app-walkthrough-part-3-accessibility/)
+* [ Restaurant Reviews App Walkthrough, Part 4 – Service Workers – Matthew Cranford (https://matthewcranford.com/restaurant-reviews-app-walkthrough-part-4-service-workers/)
+* [ Accessibility, Sept 5, 2018 episode of Syntax - Podcast and Extensive Show Notes (https://syntax.fm/show/072/accessibility)
