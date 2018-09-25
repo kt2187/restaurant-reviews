@@ -26,3 +26,7 @@ These resources and webinars were provided by Udacity mentors, coaches, student 
 * [ Restaurant Reviews App Walkthrough, Part 3 – Accessibility – Matthew Cranford (https://matthewcranford.com/restaurant-reviews-app-walkthrough-part-3-accessibility/)
 * [ Restaurant Reviews App Walkthrough, Part 4 – Service Workers – Matthew Cranford (https://matthewcranford.com/restaurant-reviews-app-walkthrough-part-4-service-workers/)
 * [ Accessibility, Sept 5, 2018 episode of Syntax - Podcast and Extensive Show Notes (https://syntax.fm/show/072/accessibility)
+
+##Frameworks/Libraries/APIs:
+* leafletjs (https://leafletjs.com/)
+* Mapbox (https://www.mapbox.com/)
